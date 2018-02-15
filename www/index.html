@@ -18,6 +18,32 @@
 	<!-- CSS Files -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/css/material-kit.css" rel="stylesheet"/>
+	<style>
+		/* fallback */
+		@font-face {
+		  font-family: 'Material Icons';
+		  font-style: normal;
+		  font-weight: 400;
+		  src: url(assets/fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+		}
+
+		.material-icons {
+		  font-family: 'Material Icons';
+		  font-weight: normal;
+		  font-style: normal;
+		  font-size: 24px;
+		  line-height: 1;
+		  letter-spacing: normal;
+		  text-transform: none;
+		  display: inline-block;
+		  white-space: nowrap;
+		  word-wrap: normal;
+		  direction: ltr;
+		  -moz-font-feature-settings: 'liga';
+		  -moz-osx-font-smoothing: grayscale;
+		}
+
+	</style>
 
 </head>
 
@@ -34,7 +60,8 @@
         		</button>
         		<a class="navbar-brand" href="javascript:void();">
 					<!--<img src = 'http://ticketfacil.ec/ticket2/gfx/logo.png' style = 'width:100px;'/>-->
-					<i class="material-icons" style="color:#9c27b0;">fingerprint</i>Cateyal
+					
+					<i class="material-icons" style="color:#9c27b0;">&#xE84F;</i>Cateyal
 				</a>
         	</div>
 
@@ -84,14 +111,14 @@
 								<div class="content">
 									<div class="input-group">
 										<span class="input-group-addon">
-											<i class="material-icons">email</i>
+											<i class="material-icons">&#xE0BE;</i>
 										</span>
 										<div class="form-group is-empty"><input autocomplete="off" class="form-control" placeholder="username" id="username" type="text"><span class="material-input"></span></div>
 									</div>
 
 									<div class="input-group">
 										<span class="input-group-addon">
-											<i class="material-icons">lock_outline</i>
+											<i class="material-icons">&#xE899;</i>
 										</span>
 										<div class="form-group is-empty"><input autocomplete="off" placeholder="password" class="form-control" id="password" type="password"><span class="material-input"></span></div>
 									</div>
@@ -107,86 +134,6 @@
 								</div>
 								<div class="footer text-center">
 									<a name="" class="btn btn-simple btn-primary btn-lg" id="ya_logueado" onclick="valida_datos()">Ingresar</a>
-								</div>
-							</form>
-							
-							<form class="form all_form" method="" action="" id="1_form" style="display:none;"> 
-								<div class="header header-primary text-center" style="background-color:#9c27b0;">
-									<h4>Registrate</h4>
-								</div>
-								<div class="content">
-									<div class="row">
-										<div class="col-md-6">
-											<div class="input-group">
-												<span class="input-group-addon">
-													<i class="material-icons">face</i>
-												</span>
-												<div class="form-group is-empty"><input autocomplete="off" class="form-control" placeholder="nombre" id="nombre" type="text"><span class="material-input"></span></div>
-											</div>
-
-										</div>
-										<div class="col-md-6">
-											<div class="input-group">
-												<span class="input-group-addon">
-													<i class="material-icons">face</i>
-												</span>
-												<div class="form-group is-empty"><input autocomplete="off" placeholder="apellido" class="form-control" id="apellido" type="text"><span class="material-input"></span></div>
-											</div>
-										</div>
-									</div>
-									
-									<div class="row">
-										<div class="col-md-6">
-											<div class="input-group">
-												<span class="input-group-addon">
-													<i class="material-icons">email</i>
-												</span>
-												<div class="form-group is-empty"><input autocomplete="off" class="form-control" placeholder="usuario@bitone.com" id="email" type="text"><span class="material-input"></span></div>
-											</div>
-
-										</div>
-										<div class="col-md-6">
-											<div class="input-group">
-												<span class="input-group-addon">
-													<i class="material-icons">lock_outline</i>
-												</span>
-												<div class="form-group is-empty"><input autocomplete="off" placeholder="************" class="form-control" id="pass" type="password"><span class="material-input"></span></div>
-											</div>
-										</div>
-									</div>
-									
-									
-									<div class="row">
-										<div class="col-md-6">
-											<div class="input-group">
-												<span class="input-group-addon">
-													<i class="material-icons">payment</i>
-												</span>
-												<div class="form-group is-empty"><input autocomplete="off" class="form-control entero" placeholder="0.05 ctvs bit" id="donacion" type="text"><span class="material-input"></span></div>
-											</div>
-
-										</div>
-										<div class="col-md-6">
-											<div class="input-group">
-												<span class="input-group-addon">
-													<i class="material-icons">list</i>
-												</span>
-												<div class="checkbox">
-													<label>
-														<input name="optionsCheckboxes" class="check_todos" type="checkbox"><span class="checkbox-material"><span class="check"></span></span>
-														<span class="checkbox-material">
-															<span class="check" style="display:none;" onclick="check_todos()"></span>
-														</span>
-														<span style="font-size:10px;">Terminos y condiciones</span>
-													</label>
-												</div>
-											</div>
-										</div>
-									</div>
-
-								</div>
-								<div class="footer text-center">
-									<a name="secuencia" class="btn btn-simple btn-primary btn-lg" onclick="registra();" id="registrate">Registrate</a>
 								</div>
 							</form>
 							
