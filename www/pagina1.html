@@ -40,7 +40,7 @@
         		</button>
         		<a class="navbar-brand" href="javascript:void();">
 					<!--<img src = 'http://ticketfacil.ec/ticket2/gfx/logo.png' style = 'width:100px;'/>-->
-					<i class="material-icons" style="color:#9c27b0;">fingerprint</i>Cateyal
+					<i class="material-icons" style="color:#9c27b0;">&#xE84F;</i>Cateyal
 				</a>
         	</div>
 
@@ -92,17 +92,15 @@
 								<div class = 'row'>
 									<div class = 'col-md-1'></div>
 									<div class = 'col-md-4'>
-										<button class="btn btn-primary btn-round btn-simple" onclick = "$('#modal1').modal('show') , $('#modal2').modal('hide')" >
-											<i class="material-icons">list</i> Menu del dia
-											<div class="ripple-container"></div>
+										<button class="btn btn-primary btn-round" onclick = "$('#modal1').modal('show') , $('#modal2').modal('hide')" >
+											Menu del dia
 										</button>
 										
 									</div>
 									<div class = 'col-md-2'></div>
 									<div class = 'col-md-4'>
-										<button class="btn btn-primary btn-round btn-simple" onclick = "$('#modal1').modal('hide') , $('#modal2').modal('show')">
-											<i class="material-icons">dashboard</i> Codigo QR
-											<div class="ripple-container"></div>
+										<button class="btn btn-primary btn-round" onclick = "$('#modal1').modal('hide') , $('#modal2').modal('show')">
+											Codigo QR
 										</button>
 									</div>
 									<div class = 'col-md-1'></div>
@@ -123,9 +121,7 @@
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header">
-					<button type="button" class="close btn btn-danger btn-simple" data-dismiss="modal" aria-hidden="true">
-						<i class="material-icons">clear</i>
-					</button>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 					<h4 class="modal-title">Mebu del Dia</h4>
 				</div>
 				<div class="modal-body">
@@ -151,9 +147,7 @@
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header">
-					<button type="button" class="close btn btn-danger btn-simple" data-dismiss="modal">
-						<i class="material-icons">clear</i>
-					</button>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 					<h4 class="modal-title">Codigo QR</h4>
 				</div>
 				<div class="modal-body">
