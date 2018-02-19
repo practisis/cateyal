@@ -47,7 +47,7 @@
 
 </head>
 
-<body class="signup-page">
+<body class="signup-page" onload = "$('.cajas').val('') , $('#username').focus()">
 	<nav class="navbar navbar-transparent navbar-absolute">
     	<div class="container">
         	<!-- Brand and toggle get grouped for better mobile display -->
@@ -59,9 +59,8 @@
 		            <span class="icon-bar"></span>
         		</button>
         		<a class="navbar-brand" href="javascript:void();">
-					<!--<img src = 'http://ticketfacil.ec/ticket2/gfx/logo.png' style = 'width:100px;'/>-->
-					
-					<i class="material-icons" style="color:#9c27b0;">&#xE84F;</i>Cateyal
+					<img src = 'assets/img/logoC.png' style = 'width:100px;'/>
+
 				</a>
         	</div>
 
@@ -113,14 +112,18 @@
 										<span class="input-group-addon">
 											<i class="material-icons">&#xE0BE;</i>
 										</span>
-										<div class="form-group is-empty"><input autocomplete="off" class="form-control" placeholder="username" id="username" type="text"><span class="material-input"></span></div>
+										<div class="form-group is-empty">
+											<input autocomplete="off" class="form-control cajas" placeholder="username" id="username" type="text"><span class="material-input"></span>
+										</div>
 									</div>
 
 									<div class="input-group">
 										<span class="input-group-addon">
 											<i class="material-icons">&#xE899;</i>
 										</span>
-										<div class="form-group is-empty"><input autocomplete="off" placeholder="password" class="form-control" id="password" type="password"><span class="material-input"></span></div>
+										<div class="form-group is-empty">
+											<input autocomplete="off" placeholder="password" class="form-control cajas" id="password" type="password"><span class="material-input"></span>
+										</div>
 									</div>
 
 									<!-- If you want to add a checkbox to this form, uncomment this code
